@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++    -Wall -std=gnu++11 -pedantic -pthread -O3 -D_WEBSOCKETPP_CPP11_STL_ -g    CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/main.cpp.o  -o baseSoaCpp -rdynamic -lboost_system 

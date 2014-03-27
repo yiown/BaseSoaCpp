@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yiown/projects/BaseSoaCpp/src/main/base/main.cpp
+websocketpp/config/asio_no_tls.hpp
+-
+websocketpp/server.hpp
+-
+iostream
+-
+

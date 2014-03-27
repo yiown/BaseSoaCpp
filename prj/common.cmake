@@ -1,6 +1,6 @@
 # flags
 if(CMAKE_COMPILER_IS_GNUCXX)
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -std=gnu++11 -pedantic -pthread -O3")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -std=gnu++11 -pedantic -pthread -O3 -D_WEBSOCKETPP_CPP11_STL_")
 endif()
 
 # includes
@@ -18,5 +18,5 @@ endmacro(install_tree)
 
 # common libraries
 set(LIB_COMMON
-    
+    boost_system
 )

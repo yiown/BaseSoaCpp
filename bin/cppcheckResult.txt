@@ -1,0 +1,1 @@
+/home/yiown/projects/BaseSoaCpp/prj/cppcheck.sh: line 3: cppcheck: command not found
