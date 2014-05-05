@@ -52,9 +52,32 @@ include CMakeFiles/baseSoaCpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/baseSoaCpp.dir/flags.make
 
+CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.o: CMakeFiles/baseSoaCpp.dir/flags.make
+CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.o: /home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/yiown/projects/BaseSoaCpp/bin/main/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.o"
+	/usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.o -c /home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp
+
+CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.i"
+	/usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp > CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.i
+
+CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.s"
+	/usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp -o CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.s
+
+CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.o.requires:
+.PHONY : CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.o.requires
+
+CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.o.provides: CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/baseSoaCpp.dir/build.make CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.o.provides.build
+.PHONY : CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.o.provides
+
+CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.o.provides.build: CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.o
+
 CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/main.cpp.o: CMakeFiles/baseSoaCpp.dir/flags.make
 CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/main.cpp.o: /home/yiown/projects/BaseSoaCpp/src/main/base/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yiown/projects/BaseSoaCpp/bin/main/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/yiown/projects/BaseSoaCpp/bin/main/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/main.cpp.o"
 	/usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/main.cpp.o -c /home/yiown/projects/BaseSoaCpp/src/main/base/main.cpp
 
@@ -77,11 +100,13 @@ CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/main.cpp.
 
 # Object files for target baseSoaCpp
 baseSoaCpp_OBJECTS = \
+"CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.o" \
 "CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/main.cpp.o"
 
 # External object files for target baseSoaCpp
 baseSoaCpp_EXTERNAL_OBJECTS =
 
+baseSoaCpp: CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.o
 baseSoaCpp: CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/main.cpp.o
 baseSoaCpp: CMakeFiles/baseSoaCpp.dir/build.make
 baseSoaCpp: CMakeFiles/baseSoaCpp.dir/link.txt
@@ -92,6 +117,7 @@ baseSoaCpp: CMakeFiles/baseSoaCpp.dir/link.txt
 CMakeFiles/baseSoaCpp.dir/build: baseSoaCpp
 .PHONY : CMakeFiles/baseSoaCpp.dir/build
 
+CMakeFiles/baseSoaCpp.dir/requires: CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.o.requires
 CMakeFiles/baseSoaCpp.dir/requires: CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/main.cpp.o.requires
 .PHONY : CMakeFiles/baseSoaCpp.dir/requires
 

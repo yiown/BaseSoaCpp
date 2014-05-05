@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /home/yiown/projects/BaseSoaCpp/bin/main
 CMakeFiles/baseSoaCpp.dir/all:
 	$(MAKE) -f CMakeFiles/baseSoaCpp.dir/build.make CMakeFiles/baseSoaCpp.dir/depend
 	$(MAKE) -f CMakeFiles/baseSoaCpp.dir/build.make CMakeFiles/baseSoaCpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yiown/projects/BaseSoaCpp/bin/main/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/yiown/projects/BaseSoaCpp/bin/main/CMakeFiles  1 2
 	@echo "Built target baseSoaCpp"
 .PHONY : CMakeFiles/baseSoaCpp.dir/all
 
@@ -72,7 +72,7 @@ all: CMakeFiles/baseSoaCpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/baseSoaCpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yiown/projects/BaseSoaCpp/bin/main/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yiown/projects/BaseSoaCpp/bin/main/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/baseSoaCpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yiown/projects/BaseSoaCpp/bin/main/CMakeFiles 0
 .PHONY : CMakeFiles/baseSoaCpp.dir/rule

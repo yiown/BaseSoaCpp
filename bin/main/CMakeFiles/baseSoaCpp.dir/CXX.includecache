@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/yiown/projects/BaseSoaCpp/src/main/base/main.cpp
+/home/yiown/projects/BaseSoaCpp/prj/main/../../src/main/base/SocketServer.h
 websocketpp/config/asio_no_tls.hpp
 -
 websocketpp/server.hpp
 -
-iostream
+
+/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp
+base/SocketServer.h
 -
 

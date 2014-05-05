@@ -60,7 +60,13 @@
          </MakeCommands>
       </Target>
       </Build>
+      <Unit filename="/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp">
+      </Unit>
       <Unit filename="/home/yiown/projects/BaseSoaCpp/src/main/base/main.cpp">
+      </Unit>
+      <Unit filename="/home/yiown/projects/BaseSoaCpp/src/main/base/Config.h">
+      </Unit>
+      <Unit filename="/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.h">
       </Unit>
       <Unit filename="/home/yiown/projects/BaseSoaCpp/prj/main/CMakeLists.txt">
           <Option virtualFolder="CMake Files\" />

@@ -4,6 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
+  "/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp" "/home/yiown/projects/BaseSoaCpp/bin/main/CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.o"
   "/home/yiown/projects/BaseSoaCpp/src/main/base/main.cpp" "/home/yiown/projects/BaseSoaCpp/bin/main/CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/main.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")

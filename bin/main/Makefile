@@ -114,6 +114,30 @@ baseSoaCpp/fast:
 	$(MAKE) -f CMakeFiles/baseSoaCpp.dir/build.make CMakeFiles/baseSoaCpp.dir/build
 .PHONY : baseSoaCpp/fast
 
+home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.o: home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.o
+.PHONY : home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.o
+
+# target to build an object file
+home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.o:
+	$(MAKE) -f CMakeFiles/baseSoaCpp.dir/build.make CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.o
+.PHONY : home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.o
+
+home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.i: home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.i
+.PHONY : home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.i
+
+# target to preprocess a source file
+home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.i:
+	$(MAKE) -f CMakeFiles/baseSoaCpp.dir/build.make CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.i
+.PHONY : home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.i
+
+home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.s: home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.s
+.PHONY : home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.s
+
+# target to generate assembly for a file
+home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.s:
+	$(MAKE) -f CMakeFiles/baseSoaCpp.dir/build.make CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.s
+.PHONY : home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.s
+
 home/yiown/projects/BaseSoaCpp/src/main/base/main.o: home/yiown/projects/BaseSoaCpp/src/main/base/main.cpp.o
 .PHONY : home/yiown/projects/BaseSoaCpp/src/main/base/main.o
 
@@ -147,6 +171,9 @@ help:
 	@echo "... baseSoaCpp"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.o"
+	@echo "... home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.i"
+	@echo "... home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.s"
 	@echo "... home/yiown/projects/BaseSoaCpp/src/main/base/main.o"
 	@echo "... home/yiown/projects/BaseSoaCpp/src/main/base/main.i"
 	@echo "... home/yiown/projects/BaseSoaCpp/src/main/base/main.s"

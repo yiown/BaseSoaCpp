@@ -1,4 +1,5 @@
 FILE(REMOVE_RECURSE
+  "CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/SocketServer.cpp.o"
   "CMakeFiles/baseSoaCpp.dir/home/yiown/projects/BaseSoaCpp/src/main/base/main.cpp.o"
   "baseSoaCpp.pdb"
   "baseSoaCpp"
